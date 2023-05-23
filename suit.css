@@ -3,6 +3,7 @@
 
 body {
     background-color: #9C835F;
+    height: 100vh;
 }
 
 .header {
@@ -48,6 +49,14 @@ body {
     align-content: center;
 }
 
+.playerOption:hover {
+    background-color: #C4C4C4;
+}
+
+.playerOption {
+    background-color: #9C835F;
+}
+
 
 .batu {
     width: 128px;
@@ -89,7 +98,7 @@ body {
     text-align: center;
 }
 
-.vs-text {
+.text {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 144px;
@@ -97,15 +106,16 @@ body {
     letter-spacing: 0.1em;
     color: #BD0000;
     align-self: center;
-    margin-left: 80px;
-    margin-right: 80px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    margin: auto;
 }
 
-.refresh-bt {
+#refresh .bt {
     width: 77px;
 }
 
-.refresh {
+#refresh {
     display: flex;
     justify-content: center;
 }
@@ -115,16 +125,16 @@ img {
     border: 1px;
 }
 
-.refresh-bt:hover {
+.bt:hover {
     width: 100px;
 }
 
-.result-vs {
+#result {
     align-self: center;
 }
 
 .rectangle {
-    width: 271.11px;
+    width: 320px;
     height: 166.93px;
     background-color: #4C9654;
     display: flex;
@@ -144,4 +154,8 @@ img {
     letter-spacing: 0.1em;
     align-self: center;
     margin: auto;
+}
+
+.selected {
+    background-color: #C4C4C4;
 }
